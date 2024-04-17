@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0007879C2BC1074C00AFA51B /* BreakfastMenuOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007879B2BC1074C00AFA51B /* BreakfastMenuOrderView.swift */; };
+		0026C4CA2BC49479002B2E91 /* LunchMenuOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026C4C92BC49479002B2E91 /* LunchMenuOrderView.swift */; };
+		0026C4CC2BC4C995002B2E91 /* StationsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026C4CB2BC4C995002B2E91 /* StationsMenuView.swift */; };
+		0026C4CE2BC4F898002B2E91 /* SeeStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026C4CD2BC4F898002B2E91 /* SeeStationView.swift */; };
+		00DA24BD2BA10FC7006313B2 /* OrderFoodFromMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA24BC2BA10FC7006313B2 /* OrderFoodFromMenuApp.swift */; };
+		00DA24BF2BA10FC7006313B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA24BE2BA10FC7006313B2 /* ContentView.swift */; };
+		00DA24C12BA10FC8006313B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DA24C02BA10FC8006313B2 /* Assets.xcassets */; };
+		00DA24C42BA10FC8006313B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DA24C32BA10FC8006313B2 /* Preview Assets.xcassets */; };
+		00DA24CD2BA11036006313B2 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA24CC2BA11036006313B2 /* CheckoutView.swift */; };
+		00DA24CF2BA1130C006313B2 /* EntreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA24CE2BA1130C006313B2 /* EntreOptions.swift */; };
+		00DA24D12BA11EE2006313B2 /* CreateEntreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA24D02BA11EE2006313B2 /* CreateEntreeView.swift */; };
+		00DA24D32BA24749006313B2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA24D22BA24749006313B2 /* Colors.swift */; };
+		00DA24D52BA24E36006313B2 /* OrderHomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA24D42BA24E36006313B2 /* OrderHomeScreenView.swift */; };
+		00DA24D72BA3CA3C006313B2 /* SeeEntreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA24D62BA3CA3C006313B2 /* SeeEntreView.swift */; };
+		00EFABFE2BC75BA200C45122 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EFABFD2BC75BA200C45122 /* FoodDetailView.swift */; };
+		00EFAC002BC89D1600C45122 /* About85NorthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EFABFF2BC89D1600C45122 /* About85NorthView.swift */; };
+		00EFAC022BCA01A600C45122 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00EFAC012BCA01A600C45122 /* GoogleService-Info.plist */; };
+		00EFAC052BCA02E300C45122 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 00EFAC042BCA02E300C45122 /* FirebaseAnalytics */; };
+		00EFAC072BCA02E300C45122 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 00EFAC062BCA02E300C45122 /* FirebaseAnalyticsOnDeviceConversion */; };
+		00EFAC092BCA02E300C45122 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 00EFAC082BCA02E300C45122 /* FirebaseAnalyticsSwift */; };
+		00EFAC0B2BCA02E300C45122 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 00EFAC0A2BCA02E300C45122 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		00EFAC0D2BCA02E300C45122 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 00EFAC0C2BCA02E300C45122 /* FirebaseAppCheck */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0007879B2BC1074C00AFA51B /* BreakfastMenuOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastMenuOrderView.swift; sourceTree = "<group>"; };
+		0026C4C92BC49479002B2E91 /* LunchMenuOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchMenuOrderView.swift; sourceTree = "<group>"; };
+		0026C4CB2BC4C995002B2E91 /* StationsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsMenuView.swift; sourceTree = "<group>"; };
+		0026C4CD2BC4F898002B2E91 /* SeeStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeStationView.swift; sourceTree = "<group>"; };
+		00DA24B92BA10FC7006313B2 /* OrderFoodFromMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderFoodFromMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DA24BC2BA10FC7006313B2 /* OrderFoodFromMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodFromMenuApp.swift; sourceTree = "<group>"; };
+		00DA24BE2BA10FC7006313B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00DA24C02BA10FC8006313B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00DA24C32BA10FC8006313B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00DA24CC2BA11036006313B2 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		00DA24CE2BA1130C006313B2 /* EntreOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntreOptions.swift; sourceTree = "<group>"; };
+		00DA24D02BA11EE2006313B2 /* CreateEntreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEntreeView.swift; sourceTree = "<group>"; };
+		00DA24D22BA24749006313B2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		00DA24D42BA24E36006313B2 /* OrderHomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHomeScreenView.swift; sourceTree = "<group>"; };
+		00DA24D62BA3CA3C006313B2 /* SeeEntreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeEntreView.swift; sourceTree = "<group>"; };
+		00EFABFD2BC75BA200C45122 /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
+		00EFABFF2BC89D1600C45122 /* About85NorthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About85NorthView.swift; sourceTree = "<group>"; };
+		00EFAC012BCA01A600C45122 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00DA24B62BA10FC7006313B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EFAC092BCA02E300C45122 /* FirebaseAnalyticsSwift in Frameworks */,
+				00EFAC052BCA02E300C45122 /* FirebaseAnalytics in Frameworks */,
+				00EFAC072BCA02E300C45122 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				00EFAC0D2BCA02E300C45122 /* FirebaseAppCheck in Frameworks */,
+				00EFAC0B2BCA02E300C45122 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DA24B02BA10FC7006313B2 = {
+			isa = PBXGroup;
+			children = (
+				00DA24BB2BA10FC7006313B2 /* OrderFoodFromMenu */,
+				00DA24BA2BA10FC7006313B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00DA24BA2BA10FC7006313B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00DA24B92BA10FC7006313B2 /* OrderFoodFromMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00DA24BB2BA10FC7006313B2 /* OrderFoodFromMenu */ = {
+			isa = PBXGroup;
+			children = (
+				00EFAC012BCA01A600C45122 /* GoogleService-Info.plist */,
+				00DA24BC2BA10FC7006313B2 /* OrderFoodFromMenuApp.swift */,
+				00DA24BE2BA10FC7006313B2 /* ContentView.swift */,
+				00DA24D42BA24E36006313B2 /* OrderHomeScreenView.swift */,
+				00DA24C02BA10FC8006313B2 /* Assets.xcassets */,
+				00DA24C22BA10FC8006313B2 /* Preview Content */,
+				00DA24D02BA11EE2006313B2 /* CreateEntreeView.swift */,
+				00DA24CC2BA11036006313B2 /* CheckoutView.swift */,
+				00DA24CE2BA1130C006313B2 /* EntreOptions.swift */,
+				00DA24D22BA24749006313B2 /* Colors.swift */,
+				00DA24D62BA3CA3C006313B2 /* SeeEntreView.swift */,
+				0007879B2BC1074C00AFA51B /* BreakfastMenuOrderView.swift */,
+				0026C4C92BC49479002B2E91 /* LunchMenuOrderView.swift */,
+				0026C4CB2BC4C995002B2E91 /* StationsMenuView.swift */,
+				0026C4CD2BC4F898002B2E91 /* SeeStationView.swift */,
+				00EFABFD2BC75BA200C45122 /* FoodDetailView.swift */,
+				00EFABFF2BC89D1600C45122 /* About85NorthView.swift */,
+			);
+			path = OrderFoodFromMenu;
+			sourceTree = "<group>";
+		};
+		00DA24C22BA10FC8006313B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00DA24C32BA10FC8006313B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00DA24B82BA10FC7006313B2 /* OrderFoodFromMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DA24C72BA10FC8006313B2 /* Build configuration list for PBXNativeTarget "OrderFoodFromMenu" */;
+			buildPhases = (
+				00DA24B52BA10FC7006313B2 /* Sources */,
+				00DA24B62BA10FC7006313B2 /* Frameworks */,
+				00DA24B72BA10FC7006313B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderFoodFromMenu;
+			packageProductDependencies = (
+				00EFAC042BCA02E300C45122 /* FirebaseAnalytics */,
+				00EFAC062BCA02E300C45122 /* FirebaseAnalyticsOnDeviceConversion */,
+				00EFAC082BCA02E300C45122 /* FirebaseAnalyticsSwift */,
+				00EFAC0A2BCA02E300C45122 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				00EFAC0C2BCA02E300C45122 /* FirebaseAppCheck */,
+			);
+			productName = OrderFoodFromMenu;
+			productReference = 00DA24B92BA10FC7006313B2 /* OrderFoodFromMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00DA24B12BA10FC7006313B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					00DA24B82BA10FC7006313B2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 00DA24B42BA10FC7006313B2 /* Build configuration list for PBXProject "OrderFoodFromMenu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00DA24B02BA10FC7006313B2;
+			packageReferences = (
+				00EFAC032BCA02E300C45122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 00DA24BA2BA10FC7006313B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00DA24B82BA10FC7006313B2 /* OrderFoodFromMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00DA24B72BA10FC7006313B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DA24C42BA10FC8006313B2 /* Preview Assets.xcassets in Resources */,
+				00DA24C12BA10FC8006313B2 /* Assets.xcassets in Resources */,
+				00EFAC022BCA01A600C45122 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00DA24B52BA10FC7006313B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DA24D72BA3CA3C006313B2 /* SeeEntreView.swift in Sources */,
+				00DA24BF2BA10FC7006313B2 /* ContentView.swift in Sources */,
+				00DA24CF2BA1130C006313B2 /* EntreOptions.swift in Sources */,
+				0026C4CA2BC49479002B2E91 /* LunchMenuOrderView.swift in Sources */,
+				00DA24D32BA24749006313B2 /* Colors.swift in Sources */,
+				0026C4CE2BC4F898002B2E91 /* SeeStationView.swift in Sources */,
+				0026C4CC2BC4C995002B2E91 /* StationsMenuView.swift in Sources */,
+				00DA24D12BA11EE2006313B2 /* CreateEntreeView.swift in Sources */,
+				00DA24D52BA24E36006313B2 /* OrderHomeScreenView.swift in Sources */,
+				00DA24CD2BA11036006313B2 /* CheckoutView.swift in Sources */,
+				00EFABFE2BC75BA200C45122 /* FoodDetailView.swift in Sources */,
+				00EFAC002BC89D1600C45122 /* About85NorthView.swift in Sources */,
+				0007879C2BC1074C00AFA51B /* BreakfastMenuOrderView.swift in Sources */,
+				00DA24BD2BA10FC7006313B2 /* OrderFoodFromMenuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00DA24C52BA10FC8006313B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00DA24C62BA10FC8006313B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00DA24C82BA10FC8006313B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrderFoodFromMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = XYH2Q468LD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "'85 North";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Seth.OrderFoodFromMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00DA24C92BA10FC8006313B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrderFoodFromMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = XYH2Q468LD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "'85 North";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Seth.OrderFoodFromMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DA24B42BA10FC7006313B2 /* Build configuration list for PBXProject "OrderFoodFromMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DA24C52BA10FC8006313B2 /* Debug */,
+				00DA24C62BA10FC8006313B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DA24C72BA10FC8006313B2 /* Build configuration list for PBXNativeTarget "OrderFoodFromMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DA24C82BA10FC8006313B2 /* Debug */,
+				00DA24C92BA10FC8006313B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		00EFAC032BCA02E300C45122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00EFAC042BCA02E300C45122 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00EFAC032BCA02E300C45122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		00EFAC062BCA02E300C45122 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00EFAC032BCA02E300C45122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		00EFAC082BCA02E300C45122 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00EFAC032BCA02E300C45122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		00EFAC0A2BCA02E300C45122 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00EFAC032BCA02E300C45122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		00EFAC0C2BCA02E300C45122 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00EFAC032BCA02E300C45122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 00DA24B12BA10FC7006313B2 /* Project object */;
+}
